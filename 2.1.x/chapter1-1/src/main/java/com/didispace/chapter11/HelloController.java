@@ -15,6 +15,7 @@ public class HelloController {
         MyUser user=new MyUser(17,"小，明");
         userService.prt(user);
         return user.getName();
+        //mytest
     }
     @RequestMapping("/mytest")
     public String mytest() {
